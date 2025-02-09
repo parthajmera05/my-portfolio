@@ -1,13 +1,13 @@
 import Dock from "@/components/Dock";
 import MacWindow from "@/components/MacWindow";
-import Profile from "@/components/Profile";
+import Tech from "@/components/tech";
 
 
-export default function Home() {
+export default function Technologies() {
   return (
     <div className="w-screen h-screen bg-black">
     <MacWindow>
-      <Profile />
+      <Tech />
       <Dock />
     </MacWindow>
     

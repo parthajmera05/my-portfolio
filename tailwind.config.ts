@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        neonGreen: "#39FF14",
+        neonPink: "#FF1493",
+        neonBlue: "#1E90FF",
+        neonCyan: "#00FFFF",
+        neonPurple: "#8A2BE2",
+        darkBg: "#0A0A0A",
       },
     },
   },
