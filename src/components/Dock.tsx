@@ -4,13 +4,14 @@ import { useState } from "react";
 
 const Dock = () => {
   const dockItems = [
-    { href: "https://github.com", img: "/github.png", alt: "GitHub" },
-    { href: "https://linkedin.com", img: "/linkedin.webp", alt: "LinkedIn" },
-    { href: "https://twitter.com", img: "/x.png", alt: "Twitter" },
-    { href: "https://mail.google.com", img: "/email.webp", alt: "Email" },
-    { href: "https://codeforces.com", img: "/codeforces.webp", alt: "Codeforces" },
-    { href: "https://codechef.com", img: "/codechef.png", alt: "CodeChef" },
-    { href: "https://leetcode.com", img: "/leetcode.webp", alt: "LeetCode" },
+    { href: "https://github.com/parthajmera05", img: "/github.png", alt: "GitHub" },
+    { href: "https://www.linkedin.com/in/parth-ajmera-811044213/", img: "/linkedin.webp", alt: "LinkedIn" },
+    { href: "https://x.com/parth_ajmera5", img: "/x.png", alt: "Twitter" },
+    { href: "mailto:parthatwork05@gmail.com", img: "/email.webp", alt: "Email" },
+    { href: "https://codeforces.com/profile/hackboii", img: "/codeforces.webp", alt: "Codeforces" },
+    { href: "https://www.codechef.com/users/ajmeraparth05", img: "/codechef.png", alt: "CodeChef" },
+    { href: "https://leetcode.com/u/hackboii/", img: "/leetcode.webp", alt: "LeetCode" },
+    { href: "https://drive.google.com/file/d/1DbfSXkPgb-fCtIeclPBpMOGv2k66bt5D/view?usp=sharing", img: "/resume.jpg", alt: "Resume" },
   ];
 
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
