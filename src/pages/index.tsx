@@ -5,7 +5,7 @@ import Profile from "@/components/Profile";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-black">
+    <div className="w-screen h-screen bg-black flex justify-center items-center">
     <MacWindow>
       <Profile />
       <Dock />

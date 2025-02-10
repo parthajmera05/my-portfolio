@@ -16,7 +16,7 @@ const Dock = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="fixed bottom-12 left-1/2 transform -translate-x-1/2 flex bg-white/10 backdrop-blur-lg px-3 py-2 rounded-xl shadow-md border border-white/20">
+    <div className="fixed bottom-12 left-1/2 transform -translate-x-1/2 flex bg-white/10 backdrop-transparent px-3 py-2 rounded-xl shadow-md border border-white/20">
       {dockItems.map((item, index) => (
         <motion.a
           key={index}
