@@ -14,11 +14,11 @@ const projects = [
     underDevelopment: true
   },
   { 
-    title: "Portfolio", 
-    description: "My Portfolio.", 
-    image: "/portfolio.png", 
-    link: "https://myportfolio-sandy-eight.vercel.app/", 
-    github: "https://github.com/parthajmera05/my-portfolio"
+    title: "DrawTogether", 
+    description: "A Collaborative Whiteboard.", 
+    image: "/drawtogether.png", 
+    link: "https://drawtogether-production.up.railway.app/", 
+    github: "https://github.com/parthajmera05/DrawTogether"
   },
   { 
     title: "BlogArticles", 
@@ -35,11 +35,11 @@ const projects = [
     github: "https://github.com/parthajmera05/Multithreaded-Server"
   },
   { 
-    title: "Visualisation Tool", 
-    description: "A visualization tool for algorithms.", 
-    image: "/code.jpeg", 
-    
-    github: "https://github.com/parthajmera05/Visualization-tool"
+    title: "Portfolio", 
+    description: "My Portfolio.", 
+    image: "/portfolio.png", 
+    link: "https://myportfolio-sandy-eight.vercel.app/", 
+    github: "https://github.com/parthajmera05/my-portfolio"
   },
 ];
 
